@@ -1,10 +1,10 @@
 # Notes
-Simple REST API for writing notes using some of the Appwrite preferred tools and libraries, named "Notes".
+Simple REST API for writing notes using some of the Appwrite preferred tools and libraries, named **"Notes"**.<br/>
 **"Notes"** allows you, as a server admin, to write notes(future tasks) about your users. 
 
 
 
-## **TODO**
+## #TODO
  - [x] Learn as much as I can with the time limit about Appwrite preferred tools and libraries.
  - [x] Install Swoole and Utopia.
  - [x] Build a mock db api for JSON file as a database.
