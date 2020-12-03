@@ -1,6 +1,6 @@
 # Notes
 Simple REST API for writing notes using some of the Appwrite preferred tools and libraries, named **"Notes"**.<br/>
-**"Notes"** allows you, as a server admin, to write notes(future tasks) about your users. 
+**"Notes"** allow you, as a server admin, to write notes(future tasks) about your users. 
 
 
 
