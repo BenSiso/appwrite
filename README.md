@@ -1,2 +1,28 @@
 # Notes
 Simple REST API for writing notes using some of the Appwrite preferred tools and libraries, named "Notes".
+**"Notes"** allows you to write notes about your users. 
+
+Instructions 
+===========
+ #. Install swoole
+ #. Run a server.
+ #. Install Utopia PHP
+ #. Add extenstion Swoole-Utopia
+ #. Run a server 
+
+TODO
+===========
+ - [x] Learn as much as I can about Appwrite preferred tools and libraries.
+ - [x] Install Swoole and Utopia.
+ - [x] Build a mock db api for JSON file as a database.
+ - [x] Test it.
+ - [x] Create an entity Notes as a Notes about a specific user.
+ - [ ] Install swoole and run a server locally.
+ - [ ] Test "Notes" entity with endpoints.
+ - [x] Write REAME file
+ 
+ 
+ 
+ 
+ 
+ 
