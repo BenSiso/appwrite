@@ -7,7 +7,9 @@ use Utopia\Config\Config;
 use CRUDJson;
 
 $db = new CRUDJson();
-
+// New Note - add new Note
+// @param : Note Id, User Id, Content
+// @return JSON of new Note
 App::post('/v1/notes')
 	   ->desc('New Note')
 	   ->param('note_id', null, function () { return new Text(100); }, 'Note ID.')
@@ -26,6 +28,8 @@ App::post('/v1/notes')
        		}
        );
 
+// Get All Notes 
+// @return JSON of all Notes
 App::get('/v1/notes')
     ->desc('List Notes')
     ->action(
@@ -41,7 +45,9 @@ App::get('/v1/notes')
        	}
 
     );
-
+// Get Note by Note ID 
+// @param : Note Id
+// @return JSON of specific Note
 App::get('/v1/note/:note_id')
     ->desc('Get note content')
     ->param('note_id', null, function () { return new Text(100); }, 'Note ID.')
@@ -57,7 +63,9 @@ App::get('/v1/note/:note_id')
        			}
        	}
     );
-
+// Update Note Content
+// @param : Note ID
+// @return JSON of specific Note
 App::put('/v1/notes/:note_id')
     ->desc('Update note')
     ->param('note_id', null, function () { return new Text(100); }, 'Note ID.')
@@ -75,6 +83,9 @@ App::put('/v1/notes/:note_id')
 
     );
 
+// Delete Note
+// @param : Note ID
+// @return JSON of deleted Note
 App::delete('/v1/notes/:note_id')
     ->desc('Delete note')
     ->param('note_id', null, function () { return new Text(100); }, 'Note ID to delete.')
